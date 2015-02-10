@@ -1,5 +1,5 @@
-<%= form_for(@genre) do |f| %>
-  <% if @genre.errors.any? %>
+<%= form_for(@genres) do |f| %>
+  <% if @genres.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@genre.errors.count, "error") %> prohibited this genre from being saved:</h2>
 

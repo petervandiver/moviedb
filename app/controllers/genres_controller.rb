@@ -20,6 +20,7 @@ class GenresController < ApplicationController
 
   # GET /genres/1/edit
   def edit
+    @genres = Genre.new
   end
 
   # POST /genres
